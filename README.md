@@ -1,10 +1,10 @@
 # Python Script to Upload Images to S3 with Metadata
 
-#Description:
+## Description:
 
 This Python script uploads images to an S3 bucket while adding image dimensions as metadata. It also provides functionality to list files in the bucket and upload a specific file based on user input.
 
-# Prerequisites:
+## Prerequisites:
 
 Python 3.x
 
@@ -14,7 +14,7 @@ PIL/Pillow library ('pip install Pillow')
 
 AWS credentials configured for boto3
 
-# Usage:
+## Usage:
 
 Replace the placeholder values for aws_access_key_id, aws_secret_access_key, and YOUR_BUCKET_NAME with your actual AWS credentials and bucket name.
 
